@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "0ad1fa36-975e-4ea6-9849-0f660616d70a")
 	(paper "A5")
+	(title_block
+		(title "Atari 2600 Composite Video Mod")
+		(date "2025-02-06")
+		(rev "0")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
@@ -2104,6 +2109,16 @@
 		)
 		(uuid "ff743545-469f-4caf-88f9-3e62756c5dfe")
 	)
+	(text "Design based on: https://forums.atariage.com/topic/271678-simple-diy-composite-video-mod/"
+		(exclude_from_sim no)
+		(at 61.976 14.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2906391d-cc0c-4cee-8051-41072c5a1bb8")
+	)
 	(text "Potentiometer: https://nl.mouser.com/ProductDetail/Bourns/3386P-1-502LF?qs=0VqvB9JLnIvTc%252BG5A5jXhw%3D%3D"
 		(exclude_from_sim no)
 		(at 136.652 101.854 0)
@@ -2113,6 +2128,16 @@
 			)
 		)
 		(uuid "81b5d793-ff2d-4c4c-b547-97eba55160ca")
+	)
+	(text "Installation guide: https://forums.atariage.com/topic/301224-composite-mod-for-the-atari-2600-jr-pal-rev-f/"
+		(exclude_from_sim no)
+		(at 70.866 18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6fb0479-4f27-41dd-b255-7511e5ca2819")
 	)
 	(symbol
 		(lib_id "power:+5V")
